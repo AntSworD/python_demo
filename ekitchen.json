@@ -1,0 +1,18 @@
+{
+  "appid": "python_demo",
+  "services": [
+    {
+      "serviceName": "demo_py",
+      "funcs": [
+        {
+          "functionName": "hello",
+          "handler": "main.hello",
+          "runtime": "python2.7"
+        }
+      ]
+    }
+  ],
+  "build": {
+    "lang": "python2.7"
+  }
+}
